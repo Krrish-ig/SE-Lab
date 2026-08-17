@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Downloading latest application code from GitHub...'
                 git branch: 'main',
-                url: 'https://github.com/sayleenarkhede/Jenkins-CI-Demo.git'
+                url: 'https://github.com/Krrish-ig/SE-Lab.git'
             }
         }
 
